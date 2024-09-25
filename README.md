@@ -16,7 +16,7 @@ Aninaugural foundation model proposed for dense coral segmentation. CoralSCOP co
 
 [Sep.28 2024] We released the testing codes and the pre-trained model of CoralSCOP. 
 
-[Aug.12 2024] CoralSCOP was accepted by CVPR as a **Highlight**.
+[April.5 2024] CoralSCOP was accepted by CVPR as a **Highlight**.
 
 
 ## Overview
