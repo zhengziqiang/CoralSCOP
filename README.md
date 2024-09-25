@@ -8,7 +8,7 @@
 Aninaugural foundation model proposed for dense coral segmentation. CoralSCOP could serve user-defined tuning and sparse-to-dense conversion to obtain more fine-grained, reliable and accurate coral statistics. The mask-referring segmentation and instruction-following segmentation enable both amateurs and coral biologists to generate coral masks.
 
 
-[Ziqiang Zheng](https://zhengziqiang.github.io/), Haixin Liang, [Binh-Son Hua](https://sonhua.github.io/), [Yue Him Wong](https://scholar.google.com/citations?user=M5j3ZiQAAAAJ), Put ANG Jr, [Apple Pui Yi CHUI](https://scholar.google.com.hk/citations?user=z7mWGNwAAAAJ&hl=en) [Sai-Kit Yeung](https://saikit.org/) 
+[Ziqiang Zheng](https://zhengziqiang.github.io/), Haixin Liang, [Binh-Son Hua](https://sonhua.github.io/), [Yue Him Wong](https://scholar.google.com/citations?user=M5j3ZiQAAAAJ), Put ANG Jr, [Apple Pui Yi CHUI](https://scholar.google.com.hk/citations?user=z7mWGNwAAAAJ&hl=en), [Sai-Kit Yeung](https://saikit.org/) 
 
 > - Primary contact: Ziqiang Zheng (zhengziqiang1@gmail.com)
 
@@ -128,7 +128,7 @@ Testing the model based on your own coral reef images. The outputs will be saved
 python test.py --model_type vit_b --checkpoint_path ./checkpoints/vit_b_coralscop.pth --iou_threshold 0.72 --sta_threshold 0.62 --test_img_path ./demo_imgs/ --output_path ./demo_imgs_output --gpu 0 --point_number 32
 ```
 
-`model_type` indicates the backbone type; `checkpoint_path`: model checkpoint path, please change to your path; `iou_threshold`: predict iou threshhold, masks with predicted iou lower than 0.72 will be removed;`sta_threshold`: stability score threshhold, masks with stability score lower than 0.62 will be removed; `test_img_path`: ## your testing image path; `output_dir`: output path for saving the generated jsons; `gpu`: which gpu to use.
+`model_type` indicates the backbone type; `checkpoint_path`: model checkpoint path, please change to your path; `iou_threshold`: predict iou threshhold, masks with predicted iou lower than 0.72 will be removed;`sta_threshold`: stability score threshhold, masks with stability score lower than 0.62 will be removed; `test_img_path`: your testing image path; `output_dir`: output path for saving the generated jsons; `gpu`: which gpu to use.
    
 Visualize the generated jsons :
 
