@@ -1,5 +1,5 @@
 
-# <img src="figs/coralscop_logo.png" alt="The logo of CoralSCOP" width="40" height="40"> CoralSCOP: Segment any COral Image on this Plane
+# <img src="figs/coralscop_logo.png" alt="The logo of CoralSCOP" width="40" height="40"> CoralSCOP: Segment any COral Image on this Planet
 
 <a href="https://coralscop.hkustvgd.com/"><img src="https://img.shields.io/badge/WEBSITE-Visit%20project%20page-blue?style=for-the-badge"></a>
 
