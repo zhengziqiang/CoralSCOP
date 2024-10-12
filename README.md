@@ -142,7 +142,7 @@ python coralscop_visualization.py --img_path ./demo_imgs/ --json_path ./demo_img
 
 **1. Datasets**
 
-Please download the official [CoralMask dataset](https://docs.google.com/forms/d/e/1FAIpQLSc8qHFBwhsJS_46hqS42NHN-3OqD5GSwvv4Sb36njdrb3LI7g/viewform). Due to copyright issues, we remove some coral reef images with copyright issues. Now the whole CoralMask dataset contains `39,023` coral reef images with `299,969` coral reef masks.
+Please download the official [CoralMask dataset](https://docs.google.com/forms/d/e/1FAIpQLSc8qHFBwhsJS_46hqS42NHN-3OqD5GSwvv4Sb36njdrb3LI7g/viewform). Due to copyright issues, we remove some coral reef images with copyright issues. Now the whole CoralMask dataset contains `38,928` coral reef images with `299,557` coral reef masks: Training: `38,098` images with `289,805` masks; Testing: `830` images with `9,752` masks.
 
 
 ## Updates:
